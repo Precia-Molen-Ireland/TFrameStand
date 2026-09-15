@@ -7,7 +7,7 @@
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Release</Config>
         <Platform Condition="'$(Platform)'==''">Win32</Platform>
-        <TargetedPlatforms>32787</TargetedPlatforms>
+        <TargetedPlatforms>689171</TargetedPlatforms>
         <AppType>Package</AppType>
         <ProjectName Condition="'$(ProjectName)'==''">FrameStandPackage_13</ProjectName>
     </PropertyGroup>
@@ -67,7 +67,6 @@
         <DCC_BpiOutput>..\lib\cpp</DCC_BpiOutput>
         <DCC_HppOutputARM>true</DCC_HppOutputARM>
         <DCC_HppOutput>..\lib\cpp</DCC_HppOutput>
-        <DCC_AdditionalSwitches>-LUDesignIDE</DCC_AdditionalSwitches>
         <DCC_BplOutput>..\lib\bpl</DCC_BplOutput>
         <DCC_DcpOutput>..\lib\dcp</DCC_DcpOutput>
         <VerInfo_Locale>1040</VerInfo_Locale>
@@ -1076,6 +1075,9 @@
                 <Platform value="Win32">True</Platform>
                 <Platform value="Win64">True</Platform>
                 <Platform value="Win64x">False</Platform>
+                <Platform value="OSXARM64">True</Platform>
+                <Platform value="iOSDevice64">True</Platform>
+                <Platform value="iOSSimARM64">True</Platform>
             </Platforms>
         </BorlandProject>
         <ProjectFileVersion>12</ProjectFileVersion>
